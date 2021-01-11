@@ -1,0 +1,22 @@
+{
+  "name": "webpack-babel-starter",
+  "version": "1.0.0",
+  "description": "webpack-babel-starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisiver/webpack-babel-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lisiver/webpack-babel-starter/issues"
+  },
+  "homepage": "https://github.com/lisiver/webpack-babel-starter#readme",
+  "devDependencies": {
+    "webpack": "^5.12.3"
+  }
+}
