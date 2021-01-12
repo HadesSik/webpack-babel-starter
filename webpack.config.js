@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 
 module.exports = {
   mode: 'development',
-  entry: ['@babel/polyfill', './src/main.js', './src/main.css'],
+  entry: ['@babel/polyfill', './src/index.jsx'],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.[hash].js'
@@ -22,7 +22,7 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-env'],
+            presets: ['@babel/preset-env', '@babel/preset-react'],
             plugins: ['@babel/plugin-proposal-class-properties']
           }
         }
