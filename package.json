@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/lisiver/webpack-babel-starter#readme",
   "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
     "webpack": "^5.12.3"
   }
 }
