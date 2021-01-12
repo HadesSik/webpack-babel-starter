@@ -6,3 +6,6 @@ node_modules
 
 # output
 dist
+
+# pacakge
+package-lock.json
