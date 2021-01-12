@@ -4,7 +4,7 @@
   "description": "webpack-babel-starter",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src -w -d dist"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
     "webpack": "^5.12.3"
   }
 }
